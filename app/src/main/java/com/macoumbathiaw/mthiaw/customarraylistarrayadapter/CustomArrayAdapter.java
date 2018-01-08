@@ -56,6 +56,7 @@ public class CustomArrayAdapter extends ArrayAdapter<CustomWords> {
         //The word takes the current position. This is the first variable in the getView method
         CustomWords currentWord = getItem(position);
 
+        //Find all Views
         TextView textViewEnglishWord = (TextView) wordView.findViewById(R.id.wolof_word_id);
         textViewEnglishWord.setText(currentWord.getmEnglish());
 
