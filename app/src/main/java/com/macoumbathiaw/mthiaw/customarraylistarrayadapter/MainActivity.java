@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
        // ArrayAdapter<CustomWords> wordsArrayAdapter= new ArrayAdapter<CustomWords>(this,R.layout.list_item_customized,customWords);
 
         CustomArrayAdapter wordsArrayAdapter = new CustomArrayAdapter(this,customWords);
-        //find the new customized list view
+        //This is the Main Activity View we are finiding,a place it to the adapter. The words and images are being shown on the Main activity page
         ListView listView = (ListView) findViewById(R.id.custom_list_view_id);
 
         listView.setAdapter(wordsArrayAdapter);
