@@ -1,3 +1,5 @@
+package com.macoumbathiaw.mthiaw.customarraylistarrayadapter;
+
 /**
  * Created by mthiaw on 1/7/18.
  */
@@ -5,9 +7,9 @@
 public class CustomWords {
 
     //Declare the variables
-    String mWolof;
-    String mEnglish;
-    int mImage;
+    private String mWolof;
+    private String mEnglish;
+    private int mImage;
 
     //Create a default constructor without any variable
     public CustomWords() {
@@ -24,5 +26,20 @@ public class CustomWords {
         this.mWolof = mWolof;
         this.mEnglish = mEnglish;
         this.mImage = mImage;
+    }
+
+    //Get the wolof word
+    public String getmWolof() {
+        return mWolof;
+    }
+
+    //Get the English word
+    public String getmEnglish() {
+        return mEnglish;
+    }
+
+    //Get the image
+    public int getmImage() {
+        return mImage;
     }
 }
